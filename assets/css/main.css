@@ -1,0 +1,135 @@
+
+@font-face {
+    font-family:Alphine;
+    src: url(Akkurat.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+--font-family:'Alphine',sans-serif;
+}
+.body{
+    font-family: var(--font-family);
+}
+h1{
+    font-family: var(--font-family);
+    font-size: 50px;
+    padding-bottom: 1.25rem;
+    padding:10px 60px;
+   
+}
+.spen fa fa-angle-right{
+    color: #eeee;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color:#696969;
+    line-height: 1.8;
+    font-size: 18px;
+}
+p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.title{
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding-bottom: 1.25rem;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+input[type="email"]{
+    border:0;
+    padding:0.625rem;
+    margin-top: 0.3125rem;
+    background-color:#eee;
+}
+input[type="submit"]{
+    background-color:blue;
+    padding: 0.625rem 0.9375rem;
+    padding: 0.635rem ;
+    cursor: pointer;
+    border: 0;
+    margin-top: 0.3125rem;
+    font-family: var(--font-family);
+}
+.first_heading{
+    display: flex;
+    flex-wrap: wrap;
+    padding:1.20rem 1.875rem;
+}
+.first_row{
+    padding: 1.80rem;
+    min-width:12.5rem ;
+}
+.first_row a{
+    padding: 5px ;
+
+}
+.first_heading_two{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.20rem 1.875rem;
+}
+.first_two{
+    padding: 2.345rem;
+    /*min-height: 1rem;*/
+    min-width: 12.5rem;
+}
+.first_two form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.first_two select {
+    display: flex;
+    justify-content: space-evenly;
+    padding:0.625rem;
+    margin-top: 0.3125rem;
+    background-color:#eee;
+    border: 0;
+}
+
+.first_two optgroup {
+    font-weight: bold;
+}
+
+.first_two option {
+    padding: 5px;
+}
+
+.footer__end {
+    display: flex;
+     padding: 40px;
+    
+}
+.footer__end ul{
+    display: flex;
+}
+.footer__end ul li{
+    margin: 15px;
+}
+.end ul{
+    padding-left: 35rem;
+}
+
+
+
+
+
+
+
+
